@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2020.12.06 a las 09:09:30 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.example.org/wsmails">
+    <schemaBindings map="false">
+      <package name="org.example.wsmails"/>
+    </schemaBindings>
+    <bindings scd="tns:sendMailRequest">
+      <class ref="org.example.wsmails.SendMailRequest"/>
+    </bindings>
+    <bindings scd="tns:sendMailResponse">
+      <class ref="org.example.wsmails.SendMailResponse"/>
+    </bindings>
+    <bindings scd="~tns:serviceStatus">
+      <class ref="org.example.wsmails.ServiceStatus"/>
+    </bindings>
+    <bindings scd="~tns:mail">
+      <class ref="org.example.wsmails.Mail"/>
+    </bindings>
+  </bindings>
+</bindings>
+
